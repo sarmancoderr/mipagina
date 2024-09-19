@@ -1,0 +1,27 @@
+{% extends "layouts/base.twig.html" %}
+
+{% block title %}
+	Página de bienvenida
+{% endblock %}
+
+{% block content %}
+    <form class="card" method="post">
+        <div class="card-header">
+            Acceso a la web
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">El correo con el que te quieres autenticar</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" name="password" class="form-label">Contraseña</label>
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        </div>
+    </form>
+	<form>
+	</form>
+{% endblock %}

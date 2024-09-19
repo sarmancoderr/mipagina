@@ -1,0 +1,6 @@
+{
+    "intelephense.environment.includePaths": [
+        "./libs"
+    ],
+    "php.suggest.basic": false
+}

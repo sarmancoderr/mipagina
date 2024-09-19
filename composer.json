@@ -1,0 +1,9 @@
+{
+    
+    "require": {
+        "twig/twig": "^3.14",
+        "nilportugues/sql-query-builder": "^1.8",
+        "illuminate/database": "^11.23",
+        "usmanhalalit/pixie": "^2.0"
+    }
+}
